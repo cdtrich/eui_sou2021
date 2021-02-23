@@ -1,4 +1,4 @@
-/* typography */
+/* TYPOGRAPHY */
 
 h1,
 h2,
@@ -14,7 +14,18 @@ body {
 	/* text-transform: uppercase; */
 }
 
-/* collapsible */
+/* img-txt-left {
+	text-align: left;
+	width: 50%;
+} */
+
+/* IMAGES */
+img {
+	width: 100%;
+	/* position: absolute; */
+}
+
+/* COLLAPSIBLE */
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
 	/* background-color: #fff; */
@@ -43,7 +54,7 @@ body {
 	/* font-size: inherit; */
 	padding: 0 18px;
 	background-color: white;
-	/* max-height: 0; */
+	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.25s ease-out;
 }
