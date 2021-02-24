@@ -12,7 +12,9 @@ h6 {
 
 body {
 	font-family: "Source Sans Pro", sans-serif;
-	/* text-transform: uppercase; */
+	width: 50%;
+	text-align: left;
+	margin: auto;
 }
 
 /* img-txt-left {
