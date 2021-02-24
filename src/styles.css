@@ -32,6 +32,7 @@ img {
 	display: -ms-flexbox; /* for IE10 */
 	display: flex; /* the current standard */
 	flex-flow: row wrap;
+	justify-content: flex-start;
 	align-items: flex-start;
 	border: 1px solid red;
 }
