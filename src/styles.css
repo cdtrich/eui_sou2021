@@ -38,9 +38,13 @@ img {
 }
 
 .flex-left {
+	flex-basis: 50%;
+	min-width: 560;
 }
 
 .flex-right {
+	flex-basis: 50%;
+	min-width: 560;
 }
 
 /* COLLAPSIBLE */
