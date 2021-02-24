@@ -7,6 +7,7 @@ h4,
 h5,
 h6 {
 	font-family: "Oswald", sans-serif;
+	color: #005188;
 }
 
 body {
@@ -25,38 +26,54 @@ img {
 	/* position: absolute; */
 }
 
+/* FLEX */
+.flex {
+	display: -webkit-flex; /* for old versions of chrome, safari */
+	display: -ms-flexbox; /* for IE10 */
+	display: flex; /* the current standard */
+	flex-flow: row wrap;
+	align-items: flex-start;
+	border: 1px solid red;
+}
+
+.flex-left {
+}
+
+.flex-right {
+}
+
 /* COLLAPSIBLE */
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
-	/* background-color: #fff; */
-	/* color: #71adc9; */
-	color: #005188;
+	background-color: #fff;
+	color: #71adc9;
+	outline: solid 4px rgba(255, 255, 255, 1);
 	cursor: pointer;
 	padding: 18px;
 	width: 100%;
 	border: none;
 	font-weight: 700;
 	text-align: left;
-	outline: none;
-	/* font-size: 15px; */
-	border-radius: 10px;
+	/* outline: none; */
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
 .collapsible:hover {
-	background-color: #71adc9;
-	color: #005188;
+	/* color: #005188; */
+	/* background-color: #fff; */
+	outline: solid 2px rgba(113, 173, 201, 0.15);
+	transition: color 0.25s ease-out;
+	transition: outline 0.25s ease-out;
 }
 
 /* Style the collapsible content. Note: hidden by default */
 .content {
-	/* font-size: inherit; */
 	padding: 0 18px;
 	background-color: white;
 	max-height: 0;
 	overflow: hidden;
-	transition: max-height 0.25s ease-out;
+	transition: max-height 0.5s ease-out;
 }
 
 .collapsible:after {
@@ -65,10 +82,7 @@ img {
 	line-height: 0.9rem;
 	text-align: center;
 	transition: all 0.5s;
-	/* color: #71adc9; */
-	color: #005188;
-	/* font-size: 13px; */
-	/* color: white; */
+	color: #71adc9;
 	float: left;
 	margin-left: 5px;
 	margin-right: 10px;
@@ -78,8 +92,3 @@ img {
 	/* color: #fff; */
 	transform: rotate(45deg);
 }
-
-/* .active:after {
-	content: "\25BC"; Unicode character for "minus" sign (-)
-	color: #005188;
-} */
