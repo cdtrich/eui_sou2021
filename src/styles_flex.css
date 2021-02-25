@@ -1,0 +1,20 @@
+/* FLEX */
+.flex {
+	display: -webkit-flex; /* for old versions of chrome, safari */
+	display: -ms-flexbox; /* for IE10 */
+	display: flex; /* the current standard */
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	border: 1px solid red;
+}
+
+.flex-left {
+	flex-basis: 50%;
+	min-width: 560;
+}
+
+.flex-right {
+	flex-basis: 50%;
+	min-width: 560;
+}

@@ -7,46 +7,33 @@ h4,
 h5,
 h6 {
 	font-family: "Oswald", sans-serif;
+	/* font-weight: 700; */
 	color: #005188;
 }
 
-body {
-	font-family: "Source Sans Pro", sans-serif;
-	width: 50%;
-	text-align: left;
-	margin: auto;
+@media only screen and (max-width: 600px) {
+	body {
+		font-family: "Source Sans Pro", sans-serif;
+		width: 90%;
+		text-align: left;
+		margin: auto;
+	}
 }
 
-/* img-txt-left {
-	text-align: left;
-	width: 50%;
-} */
+@media only screen and (min-width: 601px) {
+	body {
+		font-family: "Source Sans Pro", sans-serif;
+		width: 50%;
+		text-align: left;
+		margin: auto;
+	}
+}
 
 /* IMAGES */
-img {
-	width: 100%;
-	/* position: absolute; */
-}
-
-/* FLEX */
-.flex {
-	display: -webkit-flex; /* for old versions of chrome, safari */
-	display: -ms-flexbox; /* for IE10 */
-	display: flex; /* the current standard */
-	flex-flow: row wrap;
-	justify-content: flex-start;
-	align-items: flex-start;
-	border: 1px solid red;
-}
-
-.flex-left {
-	flex-basis: 50%;
-	min-width: 560;
-}
-
-.flex-right {
-	flex-basis: 50%;
-	min-width: 560;
+.graphic-text {
+	font-family: "Oswald", sans-serif;
+	font-weight: 200;
+	font-size: 1.25em;
 }
 
 /* COLLAPSIBLE */
@@ -67,8 +54,6 @@ img {
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
 .collapsible:hover {
-	/* color: #005188; */
-	/* background-color: #fff; */
 	outline: solid 2px rgba(113, 173, 201, 0.15);
 	transition: color 0.25s ease-out;
 	transition: outline 0.25s ease-out;
@@ -96,6 +81,5 @@ img {
 }
 
 .active:after {
-	/* color: #fff; */
 	transform: rotate(45deg);
 }
