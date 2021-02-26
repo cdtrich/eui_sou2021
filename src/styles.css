@@ -17,22 +17,25 @@ body {
 	width: 90%;
 	text-align: left;
 	margin: auto;
-	font-size: 18px;
+	/* font-size: 36px; */
+	font-size: 2em;
+	text-size-adjust: inherit;
 }
 
 p {
 	font-size: 18px;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1100px) {
 	body {
 		/* font-family: "Source Sans Pro", sans-serif; */
 		width: 50%;
-		max-width: 1920px;
-		text-align: left;
-		margin: auto;
-		/* font-size: 1em; */
+		/* max-width: 66%; */
+		font-size: 1em;
 	}
+	/* #ai2html img { */
+	/* max-width: 600px !important; */
+	/* } */
 }
 
 /* IMAGES */
