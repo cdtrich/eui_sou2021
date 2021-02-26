@@ -11,20 +11,27 @@ h6 {
 	color: #005188;
 }
 
+/* RESPONSIVENESS */
 body {
 	font-family: "Source Sans Pro", sans-serif;
 	width: 90%;
 	text-align: left;
 	margin: auto;
+	font-size: 18px;
 }
 
-@media only screen and (min-width: 1000px) {
+p {
+	font-size: 18px;
+}
+
+@media only screen and (min-width: 900px) {
 	body {
-		font-family: "Source Sans Pro", sans-serif;
+		/* font-family: "Source Sans Pro", sans-serif; */
 		width: 50%;
 		max-width: 1920px;
 		text-align: left;
 		margin: auto;
+		/* font-size: 1em; */
 	}
 }
 
