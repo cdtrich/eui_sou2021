@@ -27,7 +27,7 @@ p {
 	font-size: 1em;
 }
 
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 768px) {
 	body {
 		/* font-family: "Source Sans Pro", sans-serif; */
 		width: 50%;
