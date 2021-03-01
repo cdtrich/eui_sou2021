@@ -48,6 +48,10 @@ p {
 	font-size: 1.4em;
 }
 
+.img-section {
+	max-width: 100px;
+}
+
 /* COLLAPSIBLE */
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
