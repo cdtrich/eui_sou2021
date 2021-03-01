@@ -9,6 +9,7 @@ h6 {
 	font-family: "Oswald", sans-serif;
 	/* font-weight: 700; */
 	color: #005188;
+	/* font-size: 120% */
 }
 
 /* RESPONSIVENESS */
@@ -24,14 +25,15 @@ body {
 
 p {
 	/* font-size: 4vw; */
-	font-size: 1em;
+	font-size: 1.2em;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 900px) {
+	/* @media only screen and (min-width: 768px) { */
 	body {
 		/* font-family: "Source Sans Pro", sans-serif; */
-		width: 50%;
-		/* max-width: 66%; */
+		width: 66%;
+		max-width: 1280px;
 		font-size: 1em;
 	}
 	/* #ai2html img { */
@@ -43,12 +45,13 @@ p {
 .graphic-text {
 	font-family: "Oswald", sans-serif;
 	font-weight: 200;
-	font-size: 1.25em;
+	font-size: 1.4em;
 }
 
 /* COLLAPSIBLE */
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
+	line-height: 0.9em;
 	background-color: #fff;
 	color: #71adc9;
 	outline: solid 4px rgba(255, 255, 255, 1);
@@ -83,7 +86,7 @@ p {
 .collapsible:after {
 	content: "\0002B"; /* Unicode character for "plus" sign (+) */
 	font-size: 1.5rem;
-	line-height: 0.9rem;
+	/* line-height: 0.9rem; */
 	text-align: center;
 	transition: all 0.5s;
 	color: #71adc9;
