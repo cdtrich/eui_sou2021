@@ -48,6 +48,12 @@ p {
 	font-size: 1.4em;
 }
 
+.graphic-detail {
+	font-family: "Oswald", sans-serif;
+	font-weight: 200;
+	font-size: 1em;
+}
+
 .img-section {
 	max-width: 100px;
 }
@@ -80,7 +86,7 @@ p {
 /* Style the collapsible content. Note: hidden by default */
 .content {
 	/* padding: 0 18px; */
-	padding: 0;
+	padding-bottom: 1.5em;
 	background-color: white;
 	max-height: 0;
 	overflow: hidden;
