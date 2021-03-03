@@ -58,36 +58,71 @@ p {
 	max-width: 100px;
 }
 
+.graphic-horizontal {
+	display: none;
+}
+
+.graphic-vertical {
+	display: block;
+}
+
+@media only screen and (min-width: 900px) {
+	/* @media only screen and (min-width: 768px) { */
+	.graphic-horizontal {
+		display: block;
+	}
+
+	.graphic-vertical {
+		display: none;
+	}
+}
+
 /* COLLAPSIBLE */
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
+	font-family: "Oswald", sans-serif;
+	font-weight: 200;
 	line-height: 0.9em;
-	background-color: #fff;
-	color: #71adc9;
-	outline: solid 4px rgba(255, 255, 255, 1);
+	background-color: rgba(115, 173, 202, 0);
+	outline: solid 2px rgba(115, 173, 202, 0.25);
+	color: #005188;
 	cursor: pointer;
+	width: 100%;
+	/* border-radius: 5px; */
 	padding: 10px;
 	margin-top: 20px;
-	width: 100%;
-	border: none;
 	font-weight: 700;
 	text-align: left;
+	border: none;
 	/* outline: none; */
+}
+
+@media only screen and (min-width: 900px) {
+	/* @media only screen and (min-width: 768px) { */
+	.collapsible {
+		width: 33%;
+	}
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
 .collapsible:hover {
-	outline: solid 2px rgba(113, 173, 201, 0.15);
-	transition: color 0.25s ease-out;
+	background-color: rgba(115, 173, 202, 0.25);
+	outline: solid 2px rgba(115, 173, 202, 0);
+	/* color: #fff; */
+	transition: background-color 0.25s ease-out;
 	transition: outline 0.25s ease-out;
+	/* border: none; */
 }
 
 /* Style the collapsible content. Note: hidden by default */
 .content {
 	/* padding: 0 18px; */
 	padding-bottom: 1.5em;
-	background-color: white;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin: 0px;
+	/* background-color: white; */
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.5s ease-out;
@@ -97,12 +132,13 @@ p {
 	content: "\0002B"; /* Unicode character for "plus" sign (+) */
 	font-size: 1.5rem;
 	/* line-height: 0.9rem; */
-	text-align: center;
+	/* text-align: center; */
 	transition: all 0.5s;
-	color: #71adc9;
+	color: #005188;
 	float: left;
-	margin-left: 5px;
-	margin-right: 10px;
+	/* margin: 0px; */
+	margin-left: 0px;
+	margin-right: 5px;
 }
 
 .active:after {
