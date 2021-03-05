@@ -8,8 +8,23 @@ h5,
 h6 {
 	font-family: "Oswald", sans-serif;
 	/* font-weight: 700; */
-	color: #005188;
+	color: #123f6d;
 	/* font-size: 120% */
+}
+
+.highlight-black {
+	font-weight: bolder;
+	color: #000000;
+}
+
+.highlight-blue {
+	font-weight: bolder;
+	color: #123f6d;
+}
+
+.highlight-teal {
+	font-weight: bolder;
+	color: #73adca;
 }
 
 /* RESPONSIVENESS */
@@ -85,7 +100,7 @@ p {
 	line-height: 0.9em;
 	background-color: rgba(115, 173, 202, 0);
 	outline: solid 2px rgba(115, 173, 202, 0.25);
-	color: #005188;
+	color: #123f6d;
 	cursor: pointer;
 	width: 100%;
 	/* border-radius: 5px; */
@@ -134,7 +149,7 @@ p {
 	/* line-height: 0.9rem; */
 	/* text-align: center; */
 	transition: all 0.5s;
-	color: #005188;
+	color: #123f6d;
 	float: left;
 	/* margin: 0px; */
 	margin-left: 0px;
