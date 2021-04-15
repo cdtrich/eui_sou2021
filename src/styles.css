@@ -24,21 +24,21 @@ h6 {
 
 h6 {
 	font-size: 1em;
-	text-align: right;
+	text-align: left;
 }
 
 .highlight-black {
-	font-weight: bolder;
+	font-weight: bold;
 	color: #000000;
 }
 
 .highlight-blue {
-	font-weight: bolder;
+	font-weight: bold;
 	color: #123f6d;
 }
 
 .highlight-teal {
-	font-weight: bolder;
+	font-weight: bold;
 	color: #73adca;
 }
 
@@ -79,9 +79,10 @@ p {
 
 /* IMAGES */
 .graphic-text {
-	font-family: "Oswald", sans-serif;
-	font-weight: 200;
-	font-size: 1.4em;
+	font-family: "Source Sans Pro", sans-serif;
+	/* font-family: "Oswald", sans-serif; */
+	/* font-weight: 200; */
+	font-size: 1.2em;
 }
 
 .graphic-detail {
