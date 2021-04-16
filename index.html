@@ -1,10 +1,28 @@
 <!DOCTYPE html>
 
-<!-- TO DO -->
+<!-- TO DO 
+
+# AI
+- sec1: AI hiring index (LinekdIn - 2021 AI Index Report.xlsx)
+- sec1: separate mobile version?
+- sec2: separate mobile version - EU avg stacked up top
+
+# Global Economy
+- prim1: lock instead of spheres?
+
+# Public Health
+- prim1: update vaccine uptake, and include per type distribution
+- prim1: separate mobile version - EU avg stacked up top
+- prim2: separate mobile version - Would like to get vaccinated avg stacked up top
+
+# Peace and Human Rights
+- primary: normandy peace index removed; defence expenditure as % of GDP added instead: link to data file: https://eui1-my.sharepoint.com/:x:/g/personal/igor_tkalec_eui_eu/ETLOqcDWtjtFmZgd-LKsZzABlfCLpphCrTWWkcLoawO9Cg?e=Fc8PSB
+
+-->
 
 <html>
 	<head>
-		<title>SOU2021 Data Dossier</title>
+		<title>SOU2021 Data Dossier</title> 
 		<meta charset="UTF-8" />
 		<!-- messes up image placement... -->
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -17,37 +35,49 @@
 		/>
 		<!-- https://www.w3schools.com/w3css/w3css_responsive.asp -->
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-		<link rel="stylesheet" type="text/css" href="src/styles.css" />
+		<link rel="stylesheet" type="text/css" href="src/styles.css" />  
 	</head>
 
-	<body>
+	<body> 
 		<h1>Europe in a Changing World</h1>
 		<h2>Data dossier</h2>
 		<h3>Introduction</h3>
 
 		<p>
-			The next edition of <strong>The State of the Union</strong> will take
-			place in Florence between
-			<strong>Thursday 6 May and Saturday 8 May 2021</strong>. The forthcoming
-			edition will mark the tenth anniversary of the European University
-			Institute’s flagship conference which over the past decade has firmly
-			established itself as a key forum for discussion and debate on the most
-			pertinent issues facing Europe and Europeans.
+			COVID-19 pandemic spurs general uncertainty at the global level. According the World Uncertainty Index, COVID-19 is the most uncertain global event since the 1990s followed by the US-China trade tensions and Brexit (2019); European sovereign debt crisis and US fiscal cliff (2012); and the war in Iraq and SARS outbreak (2003).
 		</p>
 
-		<!-- 1 AI -->
+		<button type="button" class="collapsible">More information</button>
+
+		<div class="content">
+			<p class="graphic-text">
+				World Uncertainty Index is calculated for 143 countries. It is based on frequency counts of “uncertainty” and its variants in the quarterly Economist Intelligence Unit (EIU) country reports, which discuss major economic and political developments. The raw frequency counts are scaled by the total number of words in each country report.</p>
+			<p class="graphic-detail">
+					World Uncertainty Index in calculated for 143 countries. It is based on frequency counts of “uncertainty” and its variants in the quarterly Economist Intelligence Unit (EIU) country reports which discuss major economic and political developments. The raw frequency counts are scaled by the total number of word in each country report.</p>
+			<h4>World Uncertainty Index</h4>
+			<h5>1990-2020, quarterly, GDP weighted average</h5>		
+			<div class="graphic-horizontal">
+				<iframe src='https://flo.uri.sh/visualisation/5437210/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+			</div>
+			<div class="graphic-vertical">
+				<iframe src='https://flo.uri.sh/visualisation/5449528/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:800px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+			</div>
+			<h6>Data: ???</h6>
+			</div>
+			
+		<!-- 1 Artificial intelligence and digital economy -->
 
 		<div class="w3-row">
 			<h3>
 				<img
 					class="img-section"
 					src="src/Artboard-1-1-1-150x150.png"
-				/>Artificial Intelligence
+				/>Artificial intelligence and digital economy
 			</h3>
 			<div class="w3-third">
 				<p class="graphic-text">
 					<span class="highlight-black">Exports of ICT services</span> follow a
-					global upward trend. The EU’s increased from 7.2% in 2005 to 12.6% in 2017.<strong>CONTRADICTION!</strong>
+					global upward trend. The EU’s increased from 9% in 2005 to 12.7% in 2017.
 				</p>
 				<p class="graphic-detail">
 					Israel, Kuwait and Ireland are global leaders in ICT services export
@@ -214,14 +244,200 @@ y {
 				Cybersecurity index consists of five sub-indices: legal, technical,
 				organisational, capacity-building and cooperation.
 			</p>
-			<!-- <div class="flourish-embed flourish-slope" data-src="visualisation/5404346"><script src="https://public.flourish.studio/resources/embed.js"></script></div> -->
-			<iframe src='https://flo.uri.sh/visualisation/5427396/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:500px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
-			<p class="graphic-detail">
-				Exports of ICT goods (% of total goods exports) increased globally but
-				stagnate in the EU (5.2% in 2017). China is the global leader with 27%
-				of total exports (here graph with the same countries and in the main
-				graph).
-			</p>
+			<h4>Growth in AI Jobs</h4>
+			<h5>2016-2020, %</h5>
+			<iframe src='https://flo.uri.sh/visualisation/5862282/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+			<h6>Data: LinkedIn, 2020</h6>
+		</div>
+
+		<div class="w3-row">
+			<div class="w3-third">
+				<p class="graphic-text">
+						EU member states are embracing the advantages of <span class="highlight-black">digital economy and services.</span></p>
+				<p class="graphic-detail">
+						DESI index consists of five dimensions: connectivity, human capital, use of internet, integration of digital technology, digital public services. (here graph for digital public services dimensions including its sub-indices)					</p>
+			</div>
+			<div id="ai2html" class="w3-twothird">
+					<!-- Generated by ai2html v0.101.0 - 2021-03-03 16:27 -->
+					<!-- ai file: 3_econ_dig.ai -->
+					<style media="screen,print">
+						#g-3_econ_dig-box ,
+						#g-3_econ_dig-box .g-artboard {
+							margin:0 auto;
+						}
+						#g-3_econ_dig-box p {
+							margin:0;
+						}
+						#g-3_econ_dig-box .g-aiAbs {
+							position:absolute;
+						}
+						#g-3_econ_dig-box .g-aiImg {
+							position:absolute;
+							top:0;
+							display:block;
+							width:100% !important;
+						}
+						#g-3_econ_dig-box .g-aiSymbol {
+							position: absolute;
+							box-sizing: border-box;
+						}
+						#g-3_econ_dig-box .g-aiPointText p { white-space: nowrap; }
+						#g-3_econ_dig-flex_1 {
+							position:relative;
+							overflow:hidden;
+						}
+						#g-3_econ_dig-flex_1 p {
+							font-family:'Oswald', sans-serif;
+							font-weight:700;
+							line-height:19px;
+							height:auto;
+							filter:alpha(opacity=100);
+							-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+							opacity:1;
+							letter-spacing:0em;
+							font-size:16px;
+							text-align:left;
+							color:rgb(115,173,202);
+							text-transform:none;
+							padding-bottom:0;
+							padding-top:0;
+							mix-blend-mode:normal;
+							font-style:normal;
+							position:static;
+						}
+						#g-3_econ_dig-flex_1 .g-pstyle0 {
+							font-weight:400;
+							height:19px;
+							text-align:center;
+							color:rgb(18,63,109);
+						}
+						#g-3_econ_dig-flex_1 .g-pstyle1 {
+							font-weight:400;
+							height:19px;
+							text-align:center;
+						}
+						#g-3_econ_dig-flex_1 .g-pstyle2 {
+							height:19px;
+							text-align:center;
+							color:rgb(18,63,109);
+						}
+						#g-3_econ_dig-flex_1 .g-pstyle3 {
+							height:19px;
+							text-align:center;
+						}
+						#g-3_econ_dig-flex_1 .g-pstyle4 {
+							font-weight:400;
+							height:19px;
+							text-align:center;
+							color:rgb(100,99,99);
+						}
+					
+						/* Custom CSS */
+						body
+					{
+						font-family : Source Sans Pro;
+						font-size : inherit;
+					}
+					lab_eu {
+						font-family : Oswald;
+						font-size : inherit;
+					}
+					lab_world {
+						font-family : Oswald;
+						font-size : inherit;
+					}
+					x {
+						font-family : Oswald;
+						font-size : inherit;
+					}
+					y {
+						font-family : Oswald;
+						font-size : inherit;
+					}
+					
+					</style>
+					
+					<div id="g-3_econ_dig-box" class="ai2html">
+					
+						<!-- Artboard: flex_1 -->
+						<div id="g-3_econ_dig-flex_1" class="g-artboard" style="" data-aspect-ratio="1.447" data-min-width="0">
+					<div style="padding: 0 0 69.095% 0;"></div>
+							<img id="g-3_econ_dig-flex_1-img" class="g-aiImg" alt="" src="src/3_econ_dig-flex_1.png"/>
+							<div id="g-ai0-1" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:5.4355%;margin-top:-11px;left:16.6631%;margin-left:-50px;width:100px;">
+								<p class="g-pstyle0">EU27 average</p>
+							</div>
+							<div id="g-ai0-2" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:5.4355%;margin-top:-11px;left:66.6792%;margin-left:-27px;width:54px;">
+								<p class="g-pstyle1">Top 3</p>
+							</div>
+							<div id="g-ai0-3" class="g-copy g-aiAbs g-aiPointText" style="top:40.1612%;margin-top:-11.6px;left:16.624%;margin-left:-19.5px;width:39px;">
+								<p class="g-pstyle2">EU</p>
+							</div>
+							<div id="g-ai0-4" class="g-copy g-aiAbs g-aiPointText" style="top:40.1612%;margin-top:-11.6px;left:49.9892%;margin-left:-34.5px;width:69px;">
+								<p class="g-pstyle3">Estonia</p>
+							</div>
+							<div id="g-ai0-5" class="g-copy g-aiAbs g-aiPointText" style="top:40.1612%;margin-top:-11.6px;left:66.6412%;margin-left:-29px;width:58px;">
+								<p class="g-pstyle3">Spain</p>
+							</div>
+							<div id="g-ai0-6" class="g-copy g-aiAbs g-aiPointText" style="top:40.1612%;margin-top:-11.6px;left:83.2918%;margin-left:-40.5px;width:81px;">
+								<p class="g-pstyle3">Denmark</p>
+							</div>
+							<div id="g-ai0-7" class="g-copy g-aiAbs g-aiPointText" style="top:56.4069%;margin-top:-49.4px;left:16.6241%;margin-left:-35.5px;width:71px;">
+								<p class="g-pstyle4">1080</p>
+								<p class="g-pstyle0">Digital</p>
+								<p class="g-pstyle0">Public</p>
+								<p class="g-pstyle0">Services</p>
+								<p class="g-pstyle0">score</p>
+							</div>
+							<div id="g-ai0-8" class="g-copy g-aiAbs g-aiPointText" style="top:47.7232%;margin-top:-11px;left:50.0197%;margin-left:-26px;width:52px;">
+								<p class="g-pstyle4">1340</p>
+							</div>
+							<div id="g-ai0-9" class="g-copy g-aiAbs g-aiPointText" style="top:47.7232%;margin-top:-11px;left:66.6463%;margin-left:-26px;width:52px;">
+								<p class="g-pstyle4">1309</p>
+							</div>
+							<div id="g-ai0-10" class="g-copy g-aiAbs g-aiPointText" style="top:47.7232%;margin-top:-11px;left:83.2999%;margin-left:-25px;width:50px;">
+								<p class="g-pstyle4">1307</p>
+							</div>
+							<div id="g-ai0-11" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:59.7086%;margin-top:-11px;left:66.6655%;margin-left:-38px;width:76px;">
+								<p class="g-pstyle1">Bottom 3</p>
+							</div>
+							<div id="g-ai0-12" class="g-copy g-aiAbs g-aiPointText" style="top:87.6502%;margin-top:-11.6px;left:49.9683%;margin-left:-38.5px;width:77px;">
+								<p class="g-pstyle3">Slovakia</p>
+							</div>
+							<div id="g-ai0-13" class="g-copy g-aiAbs g-aiPointText" style="top:87.6502%;margin-top:-11.6px;left:66.6106%;margin-left:-33.5px;width:67px;">
+								<p class="g-pstyle3">Greece</p>
+							</div>
+							<div id="g-ai0-14" class="g-copy g-aiAbs g-aiPointText" style="top:87.6502%;margin-top:-11.6px;left:83.2451%;margin-left:-39.5px;width:79px;">
+								<p class="g-pstyle3">Romania</p>
+							</div>
+							<div id="g-ai0-15" class="g-copy g-aiAbs g-aiPointText" style="top:95.2123%;margin-top:-11px;left:49.9606%;margin-left:-22.5px;width:45px;">
+								<p class="g-pstyle4">834</p>
+							</div>
+							<div id="g-ai0-16" class="g-copy g-aiAbs g-aiPointText" style="top:95.2123%;margin-top:-11px;left:66.6536%;margin-left:-21px;width:42px;">
+								<p class="g-pstyle4">773</p>
+							</div>
+							<div id="g-ai0-17" class="g-copy g-aiAbs g-aiPointText" style="top:95.2123%;margin-top:-11px;left:83.2556%;margin-left:-22px;width:44px;">
+								<p class="g-pstyle4">726</p> 
+							</div>
+						</div>
+					
+					</div>
+					
+					<!-- End ai2html - 2021-03-03 16:27 -->
+					</div>
+		</div>
+	</div>
+
+	<button type="button" class="collapsible">More information</button>
+
+	<div class="content">
+		<p class="graphic-text">
+			Europe & Central Asia (52) and North America (41) are in lead positions regarding the development of new corporate and institutional AI frameworks and principles, followed by East Asia & Pacific (14).</p>
+		<p class="graphic-detail">
+			AI frameworks and principles  represent normative approaches to deal with the ethical challenges of AI applications, including guidelines (i.e. for privacy, accountability, transparency, and explainability) and frameworks to address concerns over AI development, deployment and governance.</p>
+		<h4>Number of new AI ethics principles by region</h4>
+		<h5>2015-20</h5>		
+			<iframe src='https://flo.uri.sh/visualisation/5862742/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+		<h6>Data: AI Ethics Lab, 2020</h6>
 		</div>
 
 		<!-- 2 CLIMATE -->
@@ -378,147 +594,245 @@ y {
 				</p>
 			</div>
 			<div id="ai2html" class="w3-twothird">
-					<!-- Generated by ai2html v0.101.0 - 2021-03-04 08:13 -->
-					<!-- ai file: 2_climate_sec.ai -->
-					<style media="screen,print">
-						#g-2_climate_sec-box ,
-						#g-2_climate_sec-box .g-artboard {
-							margin:0 auto;
-						}
-						#g-2_climate_sec-box p {
-							margin:0;
-						}
-						#g-2_climate_sec-box .g-aiAbs {
-							position:absolute;
-						}
-						#g-2_climate_sec-box .g-aiImg {
-							position:absolute;
-							top:0;
-							display:block;
-							width:100% !important;
-						}
-						#g-2_climate_sec-box .g-aiSymbol {
-							position: absolute;
-							box-sizing: border-box;
-						}
-						#g-2_climate_sec-box .g-aiPointText p { white-space: nowrap; }
-						#g-2_climate_sec-flex {
-							position:relative;
-							overflow:hidden;
-						}
-						#g-2_climate_sec-flex p {
-							font-family:'Oswald', sans-serif;
-							font-weight:400;
-							line-height:19px;
-							height:auto;
-							filter:alpha(opacity=100);
-							-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-							opacity:1;
-							letter-spacing:0em;
-							font-size:16px;
-							text-align:left;
-							color:rgb(115,173,202);
-							text-transform:none;
-							padding-bottom:0;
-							padding-top:0;
-							mix-blend-mode:normal;
-							font-style:normal;
-							position:static;
-						}
-						#g-2_climate_sec-flex .g-pstyle0 {
-							font-weight:700;
-							height:19px;
-							text-align:right;
-							color:rgb(18,63,109);
-						}
-						#g-2_climate_sec-flex .g-pstyle1 {
-							line-height:16px;
-							text-align:center;
-							color:rgb(18,63,109);
-						}
-						#g-2_climate_sec-flex .g-pstyle2 {
-							font-weight:700;
-							height:19px;
-							color:rgb(18,63,109);
-						}
-						#g-2_climate_sec-flex .g-pstyle3 {
-							text-align:center;
-							color:rgb(100,99,99);
-						}
-						#g-2_climate_sec-flex .g-pstyle4 {
-							font-weight:700;
-							height:19px;
-						}
-						#g-2_climate_sec-flex .g-pstyle5 {
-							font-weight:700;
-							height:19px;
-							text-align:right;
-						}
-						#g-2_climate_sec-flex .g-pstyle6 {
-							height:19px;
-						}
-					
-						/* Custom CSS */
-						body
-					{
-						font-family : Source Sans Pro;
-						font-size : inherit;
-					}
-					lab_eu {
-						font-family : Oswald;
-						font-size : inherit;
-					}
-					lab_world {
-						font-family : Oswald;
-						font-size : inherit;
-					}
-					x {
-						font-family : Oswald;
-						font-size : inherit;
-					}
-					y {
-						font-family : Oswald;
-						font-size : inherit;
-					}
-					
-					</style>
-					
-					<div id="g-2_climate_sec-box" class="ai2html">
-					
-						<!-- Artboard: flex -->
-						<div id="g-2_climate_sec-flex" class="g-artboard" style="" data-aspect-ratio="1.83" data-min-width="0">
-					<div style="padding: 0 0 54.6413% 0;"></div>
-							<img id="g-2_climate_sec-flex-img" class="g-aiImg" alt="" src="src/2_climate_sec-flex.png"/>
-							<div id="g-ai0-1" class="g-lab g-aiAbs g-aiPointText" style="top:4.4598%;margin-top:-11.6px;right:15.4895%;width:61px;">
-								<p class="g-pstyle0">33513</p>
-							</div>
-							<div id="g-ai0-2" class="g-lab g-aiAbs" style="padding: 6px 6px 6px 7px;background-color: rgb(255,255,255);top:23.1624%;left:48.2734%;margin-left:-8.5156%;width:17.0313%;">
-								<p class="g-pstyle1">Mt of CO2</p>
-								<p class="g-pstyle1">emissions</p>
-							</div>
-							<div id="g-ai0-3" class="g-lab g-aiAbs g-aiPointText" style="top:32.7694%;margin-top:-11.6px;left:15.7188%;width:62px;">
-								<p class="g-pstyle2">20516</p>
-							</div>
-							<div id="g-ai0-4" class="g-lab g-aiAbs" style="padding: 6px 6px 6px 7px;background-color: rgb(255,255,255);top:46.8968%;left:16.6279%;margin-left:-4.6094%;width:9.2188%;">
-								<p class="g-pstyle3">1990</p>
-							</div>
-							<div id="g-ai0-5" class="g-lab g-aiAbs" style="padding: 6px 6px 6px 7px;background-color: rgb(255,255,255);top:46.8968%;left:83.5188%;margin-left:-4.2187%;width:8.4375%;">
-								<p class="g-pstyle3">2018</p>
-							</div>
-							<div id="g-ai0-6" class="g-lab g-aiAbs g-aiPointText" style="top:88.5308%;margin-top:-11.6px;left:21.7509%;width:51px;">
-								<p class="g-pstyle4">3.88</p>
-							</div>
-							<div id="g-ai0-7" class="g-lab g-aiAbs g-aiPointText" style="top:96.8236%;margin-top:-11.6px;right:21.4954%;width:51px;">
-								<p class="g-pstyle5">4.42</p>
-							</div>
-							<div id="g-ai0-8" class="g-lab g-aiAbs g-aiPointText" style="top:96.6635%;margin-top:-11px;left:21.7509%;width:152px;">
-								<p class="g-pstyle6">tons of CO2 per capita</p>
-							</div>
-						</div>
-					
-					</div>
-					
-					<!-- End ai2html - 2021-03-04 08:13 -->
+
+<!-- Generated by ai2html v0.101.0 - 2021-04-12 13:51 -->
+<!-- ai file: 2_climate_sec.ai -->
+<style media="screen,print">
+	#g-2_climate_sec-box ,
+	#g-2_climate_sec-box .g-artboard {
+		margin:0 auto;
+	}
+	#g-2_climate_sec-box p {
+		margin:0;
+	}
+	#g-2_climate_sec-box .g-aiAbs {
+		position:absolute;
+	}
+	#g-2_climate_sec-box .g-aiImg {
+		position:absolute;
+		top:0;
+		display:block;
+		width:100% !important;
+	}
+	#g-2_climate_sec-box .g-aiSymbol {
+		position: absolute;
+		box-sizing: border-box;
+	}
+	#g-2_climate_sec-box .g-aiPointText p { white-space: nowrap; }
+	#g-2_climate_sec-flex {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-2_climate_sec-flex p {
+		font-family:'Oswald', sans-serif;
+		font-weight:400;
+		line-height:14px;
+		height:auto;
+		filter:alpha(opacity=100);
+		-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+		opacity:1;
+		letter-spacing:0em;
+		font-size:12px;
+		text-align:left;
+		color:rgb(100,99,99);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	#g-2_climate_sec-flex .g-pstyle0 {
+		font-weight:700;
+		line-height:19px;
+		height:19px;
+		font-size:16px;
+		color:rgb(115,173,202);
+	}
+	#g-2_climate_sec-flex .g-pstyle1 {
+		line-height:19px;
+		height:19px;
+		font-size:16px;
+		color:rgb(115,173,202);
+	}
+	#g-2_climate_sec-flex .g-pstyle2 {
+		height:14px;
+		text-align:right;
+		color:rgb(115,173,202);
+	}
+	#g-2_climate_sec-flex .g-pstyle3 {
+		height:14px;
+	}
+	#g-2_climate_sec-flex .g-pstyle4 {
+		font-weight:700;
+		line-height:19px;
+		height:19px;
+		font-size:16px;
+		color:rgb(18,63,109);
+	}
+	#g-2_climate_sec-flex .g-pstyle5 {
+		line-height:19px;
+		height:19px;
+		font-size:16px;
+		color:rgb(18,63,109);
+	}
+	#g-2_climate_sec-flex .g-pstyle6 {
+		line-height:19px;
+		height:19px;
+		font-size:16px;
+		text-align:center;
+	}
+	#g-2_climate_sec-flex .g-pstyle7 {
+		line-height:19px;
+		height:19px;
+		text-align:center;
+	}
+
+	/* Custom CSS */
+	body
+{
+  font-family : Source Sans Pro;
+  font-size : inherit;
+}
+lab_eu {
+  font-family : Oswald;
+  font-size : inherit;
+}
+lab_world {
+  font-family : Oswald;
+  font-size : inherit;
+}
+x {
+  font-family : Oswald;
+  font-size : inherit;
+}
+y {
+  font-family : Oswald;
+  font-size : inherit;
+}
+
+</style>
+
+<div id="g-2_climate_sec-box" class="ai2html">
+
+	<!-- Artboard: flex -->
+	<div id="g-2_climate_sec-flex" class="g-artboard" style="" data-aspect-ratio="1.171" data-min-width="0">
+<div style="padding: 0 0 85.3972% 0;"></div>
+		<img id="g-2_climate_sec-flex-img" class="g-aiImg" alt="" src="src/2_climate_sec-flex.png"/>
+		<div id="g-ai0-1" class="g-graphic g-aiAbs g-aiPointText" style="top:5.2395%;margin-top:-20.6px;left:8.3971%;width:187px;">
+			<p class="g-pstyle0">C02 emissions per capita</p>
+			<p class="g-pstyle1">tonnes</p>
+		</div>
+		<div id="g-ai0-2" class="g-lab g-aiAbs g-aiPointText" style="top:3.6872%;margin-top:-8.2px;right:18.6742%;width:45px;">
+			<p class="g-pstyle2">1990</p>
+		</div>
+		<div id="g-ai0-3" class="g-lab g-aiAbs g-aiPointText" style="top:3.6872%;margin-top:-8.2px;left:88.3098%;width:32px;">
+			<p class="g-pstyle3">15</p>
+		</div>
+		<div id="g-ai0-4" class="g-lab g-aiAbs g-aiPointText" style="top:10.0911%;margin-top:-8.2px;right:18.6235%;width:45px;">
+			<p class="g-pstyle2">2018</p>
+		</div>
+		<div id="g-ai0-5" class="g-lab g-aiAbs g-aiPointText" style="top:10.274%;margin-top:-8.2px;left:88.3098%;width:39px;">
+			<p class="g-pstyle3">12.1</p>
+		</div>
+		<div id="g-ai0-6" class="g-lab g-aiAbs g-aiPointText" style="top:19.2395%;margin-top:-8.2px;left:74.0349%;width:36px;">
+			<p class="g-pstyle3">8.2</p>
+		</div>
+		<div id="g-ai0-7" class="g-lab g-aiAbs g-aiPointText" style="top:24.7286%;margin-top:-8.2px;left:74.0349%;width:36px;">
+			<p class="g-pstyle3">5.8</p>
+		</div>
+		<div id="g-ai0-8" class="g-lab g-aiAbs g-aiPointText" style="top:28.9369%;margin-top:-8.2px;left:59.7597%;width:36px;">
+			<p class="g-pstyle3">3.9</p>
+		</div>
+		<div id="g-ai0-9" class="g-lab g-aiAbs g-aiPointText" style="top:32.2303%;margin-top:-8.2px;left:45.4851%;width:36px;">
+			<p class="g-pstyle3">2.2</p>
+		</div>
+		<div id="g-ai0-10" class="g-lab g-aiAbs g-aiPointText" style="top:33.8771%;margin-top:-8.2px;left:16.935%;width:34px;">
+			<p class="g-pstyle3">1.7</p>
+		</div>
+		<div id="g-ai0-11" class="g-lab g-aiAbs g-aiPointText" style="top:34.06%;margin-top:-8.2px;left:59.7597%;width:34px;">
+			<p class="g-pstyle3">1.7</p>
+		</div>
+		<div id="g-ai0-12" class="g-lab g-aiAbs g-aiPointText" style="top:34.6089%;margin-top:-8.2px;left:31.2099%;width:27px;">
+			<p class="g-pstyle3">1</p>
+		</div>
+		<div id="g-ai0-13" class="g-lab g-aiAbs g-aiPointText" style="top:34.6089%;margin-top:-8.2px;left:45.4851%;width:35px;">
+			<p class="g-pstyle3">1.6</p>
+		</div>
+		<div id="g-ai0-14" class="g-lab g-aiAbs g-aiPointText" style="top:36.0727%;margin-top:-8.2px;left:16.935%;width:35px;">
+			<p class="g-pstyle3">0.7</p>
+		</div>
+		<div id="g-ai0-15" class="g-lab g-aiAbs g-aiPointText" style="top:37.7194%;margin-top:-8.2px;left:31.2099%;width:36px;">
+			<p class="g-pstyle3">0.8</p>
+		</div>
+		<div id="g-ai0-16" class="g-graphic g-aiAbs g-aiPointText" style="top:52.4454%;margin-top:-20.6px;left:8.3197%;width:154px;">
+			<p class="g-pstyle4">Total CO2 emissions</p>
+			<p class="g-pstyle5">megatonnes</p>
+		</div>
+		<div id="g-ai0-17" class="g-lab g-aiAbs g-aiPointText" style="top:50.8931%;margin-top:-8.2px;left:59.7597%;width:40px;">
+			<p class="g-pstyle3">16.1</p>
+		</div>
+		<div id="g-ai0-18" class="g-lab g-aiAbs g-aiPointText" style="top:71.5686%;margin-top:-8.2px;left:88.3098%;width:36px;">
+			<p class="g-pstyle3">5.9</p>
+		</div>
+		<div id="g-ai0-19" class="g-lab g-aiAbs g-aiPointText" style="top:73.9472%;margin-top:-8.2px;left:74.0349%;width:36px;">
+			<p class="g-pstyle3">5.2</p>
+		</div>
+		<div id="g-ai0-20" class="g-lab g-aiAbs g-aiPointText" style="top:74.3131%;margin-top:-8.2px;left:88.3098%;width:36px;">
+			<p class="g-pstyle3">5.5</p>
+		</div>
+		<div id="g-ai0-21" class="g-lab g-aiAbs g-aiPointText" style="top:74.6791%;margin-top:-8.2px;left:59.7597%;width:36px;">
+			<p class="g-pstyle3">4.9</p>
+		</div>
+		<div id="g-ai0-22" class="g-lab g-aiAbs g-aiPointText" style="top:75.5939%;margin-top:-8.2px;left:16.935%;width:36px;">
+			<p class="g-pstyle3">4.4</p>
+		</div>
+		<div id="g-ai0-23" class="g-lab g-aiAbs g-aiPointText" style="top:76.6917%;margin-top:-8.2px;left:74.0349%;width:36px;">
+			<p class="g-pstyle3">4.0</p>
+		</div>
+		<div id="g-ai0-24" class="g-lab g-aiAbs g-aiPointText" style="top:81.8148%;margin-top:-8.2px;left:31.2099%;width:35px;">
+			<p class="g-pstyle3">1.2</p>
+		</div>
+		<div id="g-ai0-25" class="g-lab g-aiAbs g-aiPointText" style="top:81.9978%;margin-top:-8.2px;left:45.4851%;width:34px;">
+			<p class="g-pstyle3">1.1</p>
+		</div>
+		<div id="g-ai0-26" class="g-lab g-aiAbs g-aiPointText" style="top:82.5467%;margin-top:-8.2px;left:16.935%;width:35px;">
+			<p class="g-pstyle3">1.2</p>
+		</div>
+		<div id="g-ai0-27" class="g-lab g-aiAbs g-aiPointText" style="top:84.3764%;margin-top:-8.2px;left:31.2099%;width:30px;">
+			<p class="g-pstyle3">.5</p>
+		</div>
+		<div id="g-ai0-28" class="g-lab g-aiAbs g-aiPointText" style="top:84.5594%;margin-top:-8.2px;left:45.4851%;width:36px;">
+			<p class="g-pstyle3">0.6</p>
+		</div>
+		<div id="g-ai0-29" class="g-graphic g-aiAbs g-aiPointText" style="top:94.4232%;margin-top:-20.1px;left:15.3885%;margin-left:-48.5px;width:97px;">
+			<p class="g-pstyle6">Asia</p>
+			<p class="g-pstyle7">(excluding China)</p>
+		</div>
+		<div id="g-ai0-30" class="g-graphic g-aiAbs g-aiPointText" style="top:92.7717%;margin-top:-11px;left:29.713%;margin-left:-28.5px;width:57px;">
+			<p class="g-pstyle6">Africa</p>
+		</div>
+		<div id="g-ai0-31" class="g-graphic g-aiAbs g-aiPointText" style="top:94.5282%;margin-top:-20.6px;left:43.9685%;margin-left:-52px;width:104px;">
+			<p class="g-pstyle6">Central/South</p>
+			<p class="g-pstyle6">America</p>
+		</div>
+		<div id="g-ai0-32" class="g-graphic g-aiAbs g-aiPointText" style="top:94.5282%;margin-top:-20.6px;left:58.2242%;margin-left:-30.5px;width:61px;">
+			<p class="g-pstyle6">Asia</p>
+			<p class="g-pstyle6">Pacific</p>
+		</div>
+		<div id="g-ai0-33" class="g-graphic g-aiAbs g-aiPointText" style="top:92.7717%;margin-top:-11px;left:72.4844%;margin-left:-30.5px;width:61px;">
+			<p class="g-pstyle6">Europe</p>
+		</div>
+		<div id="g-ai0-34" class="g-graphic g-aiAbs g-aiPointText" style="top:94.5282%;margin-top:-20.6px;left:86.8146%;margin-left:-35px;width:70px;">
+			<p class="g-pstyle6">North</p>
+			<p class="g-pstyle6">America</p>
+		</div>
+	</div>
+
+</div>
+
+<!-- End ai2html - 2021-04-12 13:51 -->
+
 					</div>
 		</div>
 
@@ -530,24 +844,27 @@ y {
 				global total installed capacities for renewable energy generation are in
 				Europe.
 			</p>
-			<p class="graphic-detail">
+			<p class="graphic-detail"> 
 				Capacity of Asia has relatively increased the most over time (31.6% of
 				global total in 2010 to 44.19% in 2019). Top five countries include
 				China, India, Japan, Vietnam and Republic of Korea.
 			</p>
-			<iframe src='https://flo.uri.sh/visualisation/5435624/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:400px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+			<h4>Total renewable electricity generation</h4>
+			<h5>Per region, 2000-2018, GWh</h5>
+			<iframe src='https://flo.uri.sh/visualisation/5469922/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:400px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+			<h6>Data: IRENA (2020), Renewable Capacity Statistics 2020; & IRENA (2020), Renewable Energy Statistics 2020.</h6>
 		</div>
 
-		<!-- 3 Global economy and geopolitics -->
+		<!-- 3 Global economy -->
 
 		<div class="w3-row">
 			<h3>
 				<img class="img-section" src="src/Artboard-3-1-150x150.png" />Global
-				Economy and Geopolitics
+				Economy
 			</h3>
 			<div class="w3-third">
 				<p class="graphic-text">
-					<strong>Discriminatory state interventions</strong> prevalent in
+						<span class="highlight-black">Discriminatory state interventions</span> prevalent in
 					foreign trade over the past decade.
 				</p>
 				<p class="graphic-detail">
@@ -719,7 +1036,10 @@ y {
 					export subsidies) (9.35), FDI measures (5.3%), other (11.5%) (here pie
 					chart for liberalising measures)
 				</p>
+				<h4>Policy intstuments for harmful/discriminatory interventions</h4>
+				<h5>YEAR???, percent</h5>
 				<iframe src='https://flo.uri.sh/visualisation/5436709/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:400px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+				<h6>Data: ???</h6>
 			</div>
 			<div class="w3-row">
 				<div class="w3-third">
@@ -873,200 +1193,11 @@ y {
 					The EU’s Recovery and Resilience Facility (RRF) amounts to €672.5 billion. 			</p>
 			<p class="graphic-detail">
 					The EU multiannual financial framework (MFF) 2021-2027 together with the NextGenerationEU -COVID-19 recovery instrument that includes Recovery and Resilience Facility (RFF) will be the largest stimulus package financed through the EU budget amounting to €1.8 trillion.			</p>
+			<h4>NextGenerationEU breakdown</h4>
+			<h5>€ billion</h5>	
 			<iframe src='https://flo.uri.sh/visualisation/5437145/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:400px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+			<h6>Data: ???</h6>
 		</div>
-			<div class="w3-row">
-				<div id="ai2html" class="w3-twothird"></div>
-				<div class="w3-third">
-					<p class="graphic-text">
-							EU member states are embracing the advantages of <strong>digital economy and services.</strong></p>
-					<p class="graphic-detail">
-							DESI index consists of five dimensions: connectivity, human capital, use of internet, integration of digital technology, digital public services. (here graph for digital public services dimensions including its sub-indices)					</p>
-				</div>
-				<div id="ai2html" class="w3-twothird">
-						<!-- Generated by ai2html v0.101.0 - 2021-03-03 16:27 -->
-						<!-- ai file: 3_econ_dig.ai -->
-						<style media="screen,print">
-							#g-3_econ_dig-box ,
-							#g-3_econ_dig-box .g-artboard {
-								margin:0 auto;
-							}
-							#g-3_econ_dig-box p {
-								margin:0;
-							}
-							#g-3_econ_dig-box .g-aiAbs {
-								position:absolute;
-							}
-							#g-3_econ_dig-box .g-aiImg {
-								position:absolute;
-								top:0;
-								display:block;
-								width:100% !important;
-							}
-							#g-3_econ_dig-box .g-aiSymbol {
-								position: absolute;
-								box-sizing: border-box;
-							}
-							#g-3_econ_dig-box .g-aiPointText p { white-space: nowrap; }
-							#g-3_econ_dig-flex_1 {
-								position:relative;
-								overflow:hidden;
-							}
-							#g-3_econ_dig-flex_1 p {
-								font-family:'Oswald', sans-serif;
-								font-weight:700;
-								line-height:19px;
-								height:auto;
-								filter:alpha(opacity=100);
-								-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-								opacity:1;
-								letter-spacing:0em;
-								font-size:16px;
-								text-align:left;
-								color:rgb(115,173,202);
-								text-transform:none;
-								padding-bottom:0;
-								padding-top:0;
-								mix-blend-mode:normal;
-								font-style:normal;
-								position:static;
-							}
-							#g-3_econ_dig-flex_1 .g-pstyle0 {
-								font-weight:400;
-								height:19px;
-								text-align:center;
-								color:rgb(18,63,109);
-							}
-							#g-3_econ_dig-flex_1 .g-pstyle1 {
-								font-weight:400;
-								height:19px;
-								text-align:center;
-							}
-							#g-3_econ_dig-flex_1 .g-pstyle2 {
-								height:19px;
-								text-align:center;
-								color:rgb(18,63,109);
-							}
-							#g-3_econ_dig-flex_1 .g-pstyle3 {
-								height:19px;
-								text-align:center;
-							}
-							#g-3_econ_dig-flex_1 .g-pstyle4 {
-								font-weight:400;
-								height:19px;
-								text-align:center;
-								color:rgb(100,99,99);
-							}
-						
-							/* Custom CSS */
-							body
-						{
-							font-family : Source Sans Pro;
-							font-size : inherit;
-						}
-						lab_eu {
-							font-family : Oswald;
-							font-size : inherit;
-						}
-						lab_world {
-							font-family : Oswald;
-							font-size : inherit;
-						}
-						x {
-							font-family : Oswald;
-							font-size : inherit;
-						}
-						y {
-							font-family : Oswald;
-							font-size : inherit;
-						}
-						
-						</style>
-						
-						<div id="g-3_econ_dig-box" class="ai2html">
-						
-							<!-- Artboard: flex_1 -->
-							<div id="g-3_econ_dig-flex_1" class="g-artboard" style="" data-aspect-ratio="1.447" data-min-width="0">
-						<div style="padding: 0 0 69.095% 0;"></div>
-								<img id="g-3_econ_dig-flex_1-img" class="g-aiImg" alt="" src="src/3_econ_dig-flex_1.png"/>
-								<div id="g-ai0-1" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:5.4355%;margin-top:-11px;left:16.6631%;margin-left:-50px;width:100px;">
-									<p class="g-pstyle0">EU27 average</p>
-								</div>
-								<div id="g-ai0-2" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:5.4355%;margin-top:-11px;left:66.6792%;margin-left:-27px;width:54px;">
-									<p class="g-pstyle1">Top 3</p>
-								</div>
-								<div id="g-ai0-3" class="g-copy g-aiAbs g-aiPointText" style="top:40.1612%;margin-top:-11.6px;left:16.624%;margin-left:-19.5px;width:39px;">
-									<p class="g-pstyle2">EU</p>
-								</div>
-								<div id="g-ai0-4" class="g-copy g-aiAbs g-aiPointText" style="top:40.1612%;margin-top:-11.6px;left:49.9892%;margin-left:-34.5px;width:69px;">
-									<p class="g-pstyle3">Estonia</p>
-								</div>
-								<div id="g-ai0-5" class="g-copy g-aiAbs g-aiPointText" style="top:40.1612%;margin-top:-11.6px;left:66.6412%;margin-left:-29px;width:58px;">
-									<p class="g-pstyle3">Spain</p>
-								</div>
-								<div id="g-ai0-6" class="g-copy g-aiAbs g-aiPointText" style="top:40.1612%;margin-top:-11.6px;left:83.2918%;margin-left:-40.5px;width:81px;">
-									<p class="g-pstyle3">Denmark</p>
-								</div>
-								<div id="g-ai0-7" class="g-copy g-aiAbs g-aiPointText" style="top:56.4069%;margin-top:-49.4px;left:16.6241%;margin-left:-35.5px;width:71px;">
-									<p class="g-pstyle4">1080</p>
-									<p class="g-pstyle0">Digital</p>
-									<p class="g-pstyle0">Public</p>
-									<p class="g-pstyle0">Services</p>
-									<p class="g-pstyle0">score</p>
-								</div>
-								<div id="g-ai0-8" class="g-copy g-aiAbs g-aiPointText" style="top:47.7232%;margin-top:-11px;left:50.0197%;margin-left:-26px;width:52px;">
-									<p class="g-pstyle4">1340</p>
-								</div>
-								<div id="g-ai0-9" class="g-copy g-aiAbs g-aiPointText" style="top:47.7232%;margin-top:-11px;left:66.6463%;margin-left:-26px;width:52px;">
-									<p class="g-pstyle4">1309</p>
-								</div>
-								<div id="g-ai0-10" class="g-copy g-aiAbs g-aiPointText" style="top:47.7232%;margin-top:-11px;left:83.2999%;margin-left:-25px;width:50px;">
-									<p class="g-pstyle4">1307</p>
-								</div>
-								<div id="g-ai0-11" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:59.7086%;margin-top:-11px;left:66.6655%;margin-left:-38px;width:76px;">
-									<p class="g-pstyle1">Bottom 3</p>
-								</div>
-								<div id="g-ai0-12" class="g-copy g-aiAbs g-aiPointText" style="top:87.6502%;margin-top:-11.6px;left:49.9683%;margin-left:-38.5px;width:77px;">
-									<p class="g-pstyle3">Slovakia</p>
-								</div>
-								<div id="g-ai0-13" class="g-copy g-aiAbs g-aiPointText" style="top:87.6502%;margin-top:-11.6px;left:66.6106%;margin-left:-33.5px;width:67px;">
-									<p class="g-pstyle3">Greece</p>
-								</div>
-								<div id="g-ai0-14" class="g-copy g-aiAbs g-aiPointText" style="top:87.6502%;margin-top:-11.6px;left:83.2451%;margin-left:-39.5px;width:79px;">
-									<p class="g-pstyle3">Romania</p>
-								</div>
-								<div id="g-ai0-15" class="g-copy g-aiAbs g-aiPointText" style="top:95.2123%;margin-top:-11px;left:49.9606%;margin-left:-22.5px;width:45px;">
-									<p class="g-pstyle4">834</p>
-								</div>
-								<div id="g-ai0-16" class="g-copy g-aiAbs g-aiPointText" style="top:95.2123%;margin-top:-11px;left:66.6536%;margin-left:-21px;width:42px;">
-									<p class="g-pstyle4">773</p>
-								</div>
-								<div id="g-ai0-17" class="g-copy g-aiAbs g-aiPointText" style="top:95.2123%;margin-top:-11px;left:83.2556%;margin-left:-22px;width:44px;">
-									<p class="g-pstyle4">726</p>
-								</div>
-							</div>
-						
-						</div>
-						
-						<!-- End ai2html - 2021-03-03 16:27 -->
-						</div>
-			</div>
-		</div>
-
-		<button type="button" class="collapsible">More information</button>
-
-		<div class="content">
-			<p class="graphic-text">
-					COVID-19 pandemic spurs general uncertainty at the global level.</p>
-			<p class="graphic-detail">
-					World Uncertainty Index in calculated for 143 countries. It is based on frequency counts of “uncertainty” and its variants in the quarterly Economist Intelligence Unit (EIU) country reports which discuss major economic and political developments. The raw frequency counts are scaled by the total number of word in each country report.</p>
-			<div class="graphic-horizontal">
-			<iframe src='https://flo.uri.sh/visualisation/5437210/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
-			</div>
-			<divv class="graphic-vertical">
-				<iframe src='https://flo.uri.sh/visualisation/5449528/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:800px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
-			</div>
-			</div>
 
 		<!-- 4 Public health --> 
 
@@ -1077,7 +1208,7 @@ y {
 			</h3>
 			<div class="w3-third">
 				<p class="graphic-text">
-						In February 2021, less than 5% of population in majority of the EU member states received the <strong>first dose of a COVID-19 vaccine.</strong><strong> CONTRADICTION!</strong></p>
+						In February 2021, less than 5% of population in majority of the EU member states received the <span class="highlight-black">first dose of a COVID-19 vaccine.</span>
 						<p class="graphic-detail">Calculation of vaccine uptake: number of first doses cumulatively administered to individuals 18 and above divided by the size of population aged 18+. Vaccine is expressed as a % of population aged 18+. Population data obtained from Eurostat/UN.
 				</p>
 			</div>
@@ -1263,7 +1394,7 @@ y {
 		<div class="w3-row">
 			<div class="w3-third">
 				<p class="graphic-text">
-					70% of EU citizens would like to get <nobr><strong>COVID-19 vaccine</strong></nobr> at some point (if vaccine is authorised by public authorities).</p>
+					70% of EU citizens would like to get <nobr><span class="highlight-black">COVID-19 vaccine</span></nobr> at some point (if vaccine is authorised by public authorities).</p>
 						<p class="graphic-detail">Public attitudes toward <nobr>COVID-19</nobr> vaccination are increasingly positive from the beginning of 2021. Denmark, Finland and Sweden have the highest approval rate. 
 				</p>
 			</div>
@@ -1400,10 +1531,13 @@ y {
 
 		<div class="content">
 			<p class="graphic-text">
-					Until day February 23, 2021, 2.46 million people have died from COVID-19 worldwide.</p>
+					A total of 2.46 million people have died from COVID-19 worldwide as of 23 February 2021.</p>
 			<p class="graphic-detail">
 					Number of deaths is cumulative total since the start of the COVID-19 pandemic.</p>
+				<h4>COVID deaths</h4>
+				<h5>Cumulative total per 100,000 population by country/territory as of ???</h5>				
 			<iframe src='https://flo.uri.sh/visualisation/5450348/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+			<h6>Data: WHO, 2021</h6>
 		</div>
 				
 		<!-- 5 Peace and human rights -->
@@ -1415,7 +1549,7 @@ y {
 			</h3>
 			<div class="w3-third">
 				<p class="graphic-text">
-						The EU continues to keep <strong>peace at home and</strong> promote peace <strong>abroad.</strong>
+					<span class="highlight-black">Spending of defence</span> accounts for 1.2% of GDP for EU27 in 2019 and has been constant since 2013. Estonia (2.1%) and Greece (2%) relatively spend the most on defence, while Ireland (0.2%) and Luxembourg (0.4%) spend the least.  
 				</p>
 				<p class="graphic-detail">The Normandy Peace Index includes 11 dimensions: climate change, cybersecurity, democratic processes, economic crises, energy insecurity, fragile states, homicide, press freedom, terrorism, violent conflict, WMD.</p>
 			</div>
@@ -1546,10 +1680,13 @@ y {
 
 		<div class="content">
 			<p class="graphic-text">
-					To be written after data aggregation (if we decide to keep the indicator)			</p>
+				In 2017, costs for personnel (48.8%) represent the largest share of defence  spending followed by operation and maintenance costs (27.2%), R&D (20.6%), as well as infrastructure/construction expenditures (2.7%). Defence as a sector is only the seventh largest expenditure component within the EU28 (after social protection, health, public services, education, economic affairs and public safety).</p>
 			<p class="graphic-detail">
 					To be written after data aggregation (if we decide to keep the indicator)			</p>
+			<h4>Top 100 arms-producing and military services companies in the world</h4>
+			<h5>Total sales arms sales, excluding China, 2018, US$ million</h5>	
 			<iframe src='https://flo.uri.sh/visualisation/5448482/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:700px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+			<h6>Data: SIPRI Arms Industry Database, retrieved December 2019</h6>
 		</div>
 				
 				<!-- 6 Strategic autonomy -->
@@ -1561,7 +1698,7 @@ y {
 			</h3>
 			<div class="w3-third">
 				<p class="graphic-text">
-						Five EU member states – the Netherlands (82.4), Germany (81.8), Sweden (81.2), the UK (81.2), and Denmark (81.2) – among the 10 most <strong>competitive economies</strong> in the world.
+						Five EU member states – the Netherlands (82.4), Germany (81.8), Sweden (81.2), the UK (81.2), and Denmark (81.2) – among the 10 most <span class="highlight-black">competitive economies</span> in the world.
 				</p>
 				<p class="graphic-detail">
 						Competitiveness is defined through the attributes and quality of an economy, that allow for a more efficient use of factors production (p.2). The index includes four dimensions – enabling environment (institutions, infrastructure, ICT adoption, macroeconomic stability), human capital (health, skills), markets (product market, labour market, financial system, market size), and innovation ecosystem  (business dynamism and innovation capability).</p>
@@ -1746,22 +1883,13 @@ y {
 			<p class="graphic-detail">
 					Although R&D expenditure has increased since 2008 and in 2018 equals 2.18% of GDP, the EU still lags behind the US (2.82%), and Japan (3.28%). In 2018, the EU manages to surpass China (2.14%; excluding Hong Kong) in R&D spending. 
 			</p>
+			<h4>R&D expenditure</h4>
+			<h5>2008-2018, UNIT???</h5>	
 			<iframe src='https://flo.uri.sh/visualisation/5449187/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:400px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+			<h6>Data: ???</h6>
 		</div>
 
 		<script src="src/collapsible.js"></script>
-		<!-- WP advanced iframe settings -->
-		<!-- <script>
-			var updateIframeHeight = "true";
-			var hide_page_until_loaded_external = "true";
-			var write_css_directly = "true";
-			var resize_on_element_resize = "#content";
-			var resize_on_element_resize_delay = 50;
-			var iframe_url_id = "ai_id";
-			var iframe_hide_elements = "#iframe-header,#iframe-footer";
-			var iframe_content_id = "#iframe-content";
-			var iframe_content_styles = "color:#ff0000";
-			</script> -->
 		<script src="https://cdtrich.eu/wp-content/plugins/advanced-iframe/js/ai_external.js"></script>
 	</body>
 </html>
