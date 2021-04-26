@@ -7,12 +7,13 @@ h4,
 h5,
 h6 {
 	font-family: "Oswald", sans-serif;
-	color: #123f6d;
+	color: #003865;
 }
 
 h4 {
 	color: #1d1d1b;
 	margin-bottom: 0;
+	margin-top: 1em;
 }
 
 h5,
@@ -25,6 +26,7 @@ h6 {
 h6 {
 	font-size: 1em;
 	text-align: left;
+	margin-top: 1em;
 }
 
 .highlight-black {
@@ -34,7 +36,7 @@ h6 {
 
 .highlight-blue {
 	font-weight: bold;
-	color: #123f6d;
+	color: #003865;
 }
 
 .highlight-teal {
@@ -48,8 +50,6 @@ body {
 	width: 90%;
 	text-align: left;
 	margin: auto;
-	/* font-size: 36px; */
-	/* font-size: 1em; */
 	text-size-adjust: inherit;
 }
 
@@ -63,36 +63,61 @@ p {
 	body {
 		/* font-family: "Source Sans Pro", sans-serif; */
 		width: 66%;
+		/* adjust to banner size? */
 		max-width: 1280px;
 		font-size: 1em;
 	}
-	/* #ai2html img { */
-	/* max-width: 600px !important; */
-	/* } */
 }
-
-/* SECTIONS */
-/* .section-dark {
-	background-color: rgba(115, 173, 202, 0.1);
-	padding: 1em;
-} */
 
 /* IMAGES */
 .graphic-text {
-	font-family: "Source Sans Pro", sans-serif;
+	/* font-family: "Source Sans Pro", sans-serif; */
 	/* font-family: "Oswald", sans-serif; */
 	/* font-weight: 200; */
 	font-size: 1.2em;
+	padding-bottom: 0em;
 }
 
 .graphic-detail {
 	font-family: "Oswald", sans-serif;
 	font-weight: 200;
 	font-size: 1em;
+	/* padding-top: 0.5em; */
+	margin-bottom: 0.5em;
 }
 
 .img-section {
 	max-width: 100px;
+}
+
+.banner {
+	width: 100%;
+	max-width: 842px;
+	max-height: 87px;
+	align-self: center;
+}
+
+#masthead {
+	background-color: #003865;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	width: 100% !important;
+	max-width: 100% !important;
+	padding: 1em;
+}
+
+#partners {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: flex-start;
+	/* justify-content: space-evenly; */
+}
+
+.partner {
+	padding: 1em;
+	flex-basis: 2em;
 }
 
 .graphic-horizontal {
@@ -115,14 +140,13 @@ p {
 }
 
 /* COLLAPSIBLE */
-/* Style the button that is used to open and close the collapsible content */
 .collapsible {
 	font-family: "Oswald", sans-serif;
 	font-weight: 200;
 	line-height: 0.9em;
 	background-color: rgba(115, 173, 202, 0);
 	outline: solid 2px rgba(115, 173, 202, 0.25);
-	color: #123f6d;
+	color: #003865;
 	cursor: pointer;
 	width: 100%;
 	/* border-radius: 5px; */
@@ -141,7 +165,7 @@ p {
 	}
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* background color of the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
 .collapsible:hover {
 	background-color: rgba(115, 173, 202, 0.25);
@@ -158,7 +182,6 @@ p {
 	padding-left: 0px;
 	padding-right: 0px;
 	margin: 0px;
-	/* background-color: white; */
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.5s ease-out;
@@ -167,12 +190,9 @@ p {
 .collapsible:after {
 	content: "\0002B"; /* Unicode character for "plus" sign (+) */
 	font-size: 1.5rem;
-	/* line-height: 0.9rem; */
-	/* text-align: center; */
 	transition: all 0.5s;
-	color: #123f6d;
+	color: #003865;
 	float: left;
-	/* margin: 0px; */
 	margin-left: 0px;
 	margin-right: 5px;
 }
