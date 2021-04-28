@@ -116,13 +116,6 @@ p {
 	max-width: 250px !important;
 }
 
-#partners {
-	display: flex;
-	flex-flow: row wrap;
-	align-items: flex-start;
-	/* justify-content: space-evenly; */
-}
-
 .partner {
 	padding: 1em;
 	flex-basis: 2em;
@@ -137,6 +130,11 @@ p {
 	display: block;
 }
 
+#ai2html {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
 @media only screen and (min-width: 900px) {
 	/* @media only screen and (min-width: 768px) { */
 	.graphic-horizontal {
@@ -145,6 +143,11 @@ p {
 
 	.graphic-vertical {
 		display: none;
+	}
+
+	#ai2html {
+		padding-top: 0em;
+		padding-bottom: 0em;
 	}
 }
 
