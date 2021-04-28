@@ -126,6 +126,7 @@ p {
 .partner {
 	padding: 1em;
 	flex-basis: 2em;
+	width: 100%;
 }
 
 .graphic-horizontal {
